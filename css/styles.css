@@ -82,3 +82,30 @@ body {
   color: #ff8c77;
   font-weight: 400;
 } 
+
+@media (min-width: 768px) {
+  body {
+    font-size: 1.3rem;
+  }
+  .input-text {
+    font-size: 1.3rem;
+  }
+  .button {
+    font-size: 1.1rem;
+    padding: 0.7rem 1rem;
+  }
+  .container {
+    max-width: 800px;
+  }
+  .container-form {
+    display: flex;
+  }
+  .wrap-input {
+    flex-grow: 1;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .button {
+    margin-left: 1rem;
+  }
+}
