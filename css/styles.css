@@ -1,0 +1,84 @@
+*,
+*::before, 
+*::after {
+  box-sizing: border-box;
+}
+body {
+  color: #222;
+  margin: 0;
+  font-family: sans-serif;
+  height: 100vh;
+  background-image: linear-gradient(rgb(230, 237, 252), rgb(248, 220, 240));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-title {
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.main-title span {
+  display: block;
+  font-size: 0.9rem;
+  color: #999;
+}
+
+.container {
+  max-width: 400px;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  padding: 1.5rem;
+  flex-grow: 1;
+}
+
+.wrap-input {
+  margin-bottom: 2rem;
+}
+
+.label, .input-text {
+  display: block;
+  width: 100%;
+}
+
+.label {
+  font-weight: bold;
+  margin-bottom: 0.2rem;
+}
+
+.input-text {
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  outline: none;
+}
+
+.input-text:focus {
+  box-shadow: 0 3px 8px #aaa;
+}
+.button {
+  background-color: rgb(77, 77, 250);
+  color: white;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  border-radius: 1rem;
+
+}
+.button:active {
+  background-color: rgb(53, 53, 196);
+}
+.alert{
+  font-weight: bold;
+  color: rgb(77, 77, 250);
+}
+
+.alert::placeholder {
+  color: #ff8c77;
+  font-weight: 400;
+} 

@@ -5,9 +5,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="convierte px a rem">
   <meta name="keywords" content="convertir px a rem, peru">
-  <title>px a Rem</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <title>px a rem</title>
 </head>
 <body>
-  
+  <h1 class="main-title">PX a REM
+    <span>1rem es igual a 16px</span>
+  </h1>
+  <div class="container">
+    <form action="" class="container-form">
+      <div class="wrap-input">
+        <label for="valuePx" class="label">
+          px
+        </label>
+        <input class="input-text" type="text" id="valuePx" placeholder="Ingresa un valor en px" autocomplete="off">
+      </div>
+      <div class="wrap-input">
+        <label for="valueRem" class="label">
+          rem
+        </label>
+        <input class="input-text alert" type="text" id="valueRem" placeholder="no ingresar ningun valor aqui" readonly>
+      </div>
+    </form>
+    <button class="button">Convertir</button>
+  </div>
+  <script src="js/code.js"></script>
 </body>
 </html>
